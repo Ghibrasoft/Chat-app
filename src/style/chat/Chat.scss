@@ -1,0 +1,53 @@
+@import '../variables.scss';
+
+.chat_div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: $ubuntu-font;
+
+    .signOut_div {
+        display: flex;
+        justify-content: center;
+        margin: .3rem 0;
+    }
+
+    .messages_div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3.5rem;
+        margin-left: .5rem;
+        gap: .5rem;
+        width: 30%;
+        word-break: break-all;
+        border-radius: 5px 25px 25px 25px;
+        // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+        .message_div {
+            display: flex;
+            align-items: center;
+            border-radius: 5px 25px 25px 25px;
+            background: $msg-bg-color;
+
+            .message_img {
+                width: 50px;
+                height: 50px;
+                margin: .3rem;
+                border-radius: 50%;
+            }
+
+            .message_p {
+                margin-left: .5rem;
+                padding: .3rem;
+            }
+        }
+    }
+
+    .sendMessage_div {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: .5rem;
+    }
+}

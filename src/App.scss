@@ -1,0 +1,32 @@
+@import './style/variables.scss';
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/utilities/api.scss';
+@import '../node_modules//bootstrap/scss/utilities';
+
+
+.startPage_section {
+    @include myFlexDiv;
+    height: 100vh;
+    background-color: $bg-color;
+}
+
+::-webkit-scrollbar {
+    width: .3rem;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: $light;
+    border-radius: 10px;
+  }
+  
+/* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $info;
+    border-radius: 10px
+  }
+  
+/* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $primary;
+  }

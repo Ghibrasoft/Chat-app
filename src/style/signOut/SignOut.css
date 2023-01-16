@@ -1,0 +1,12 @@
+/* ===== transition ===== */
+/* ===== fonts ===== */
+/* ===== colors ===== */
+/* ===== mixin ===== */
+.signOut_btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem;
+  font-family: "Ubuntu", sans-serif;
+  background: #F8F8FF;
+}/*# sourceMappingURL=SignOut.css.map */

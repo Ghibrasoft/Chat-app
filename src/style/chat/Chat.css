@@ -1,0 +1,48 @@
+/* ===== transition ===== */
+/* ===== fonts ===== */
+/* ===== colors ===== */
+/* ===== mixin ===== */
+.chat_div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+.chat_div .signOut_div {
+  display: flex;
+  justify-content: center;
+  margin: 0.3rem 0;
+}
+.chat_div .messages_div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.5rem;
+  margin-left: 0.5rem;
+  gap: 0.5rem;
+  width: 30%;
+  word-break: break-all;
+  border-radius: 5px 25px 25px 25px;
+}
+.chat_div .messages_div .message_div {
+  display: flex;
+  align-items: center;
+  border-radius: 5px 25px 25px 25px;
+  background: #00BFFF;
+}
+.chat_div .messages_div .message_div .message_img {
+  width: 50px;
+  height: 50px;
+  margin: 0.3rem;
+  border-radius: 50%;
+}
+.chat_div .messages_div .message_div .message_p {
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+}
+.chat_div .sendMessage_div {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0.5rem;
+}/*# sourceMappingURL=Chat.css.map */

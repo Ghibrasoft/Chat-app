@@ -1,0 +1,40 @@
+/* ===== transition ===== */
+$hover-transition: .3s ease;
+$click-transition: .1s ease;
+
+/* ===== fonts ===== */
+$ubuntu-font: 'Ubuntu', sans-serif;
+$kaushan-font: 'Kaushan Script', cursive;
+
+/* ===== colors ===== */
+$bg-color: #FFFAF0;
+$msg-bg-color: #00BFFF;
+$sign-btn-color: #F8F8FF;
+$active-btn-color: #00FF7F;
+$form-color: #1E90FF;
+
+/* ===== mixin ===== */
+@mixin glassMorphism {
+    background: rgba(30, 144, 226, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@mixin myFlexDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin buttonStyles {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem;
+    font-family: $ubuntu-font;
+    background: $sign-btn-color;
+}
